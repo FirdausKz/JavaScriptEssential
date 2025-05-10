@@ -11,15 +11,7 @@ const globalConst = "saya adalah konstanta global";
   console.log(blockLet);
 }
 
-
 // Lingkup global
 console.log(globalVar); // Output: "Saya adalah variabel global"
 console.log(globalLet); // Output: "Saya juga global, tetapi terikat dengan let"
 console.log(globalConst); // Output: "Saya adalah konstanta global"
-
-
-
-
-
-
-
