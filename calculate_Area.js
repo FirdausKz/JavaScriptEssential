@@ -7,5 +7,4 @@ function calculate(){
 
     let result = width * length;
     document.getElementById('result').innerText = `The result is = ${result}`; 
-    
 }
