@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Umpan Balik Merek Mewah</title>
+</head>
+<body>
+  <h1>Selamat Datang di Umpan Balik Produk Merek Mewah</h1>
+  <h2>Berikan Umpan Balik Anda</h2>
+  <label for="name">Nama:</label><br>
+  <input type="text" id="name" placeholder="Nama Anda" required><br>
+  <label for="age">Usia:</label><br>
+  <input type="number" id="age" placeholder="Usia Anda" required><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" placeholder="Email Anda" required><br>
+  <label for="job">Pekerjaan:</label><br>
+  <input type="text" id="job" placeholder="Pekerjaan Anda" required><br>
+  <label for="designation">Jabatan:</label><br>
+  <input type="text" id="designation" placeholder="Jabatan Anda" required><br>
+  <label for="productType">Tipe Produk:</label><br>
+  <select id="productType" required>
+    <option value="perfume">Parfum</option>
+    <option value="cream">Krim</option>
+    <option value="oils">Minyak</option>
+  </select><br>
+  <label for="feedbackText">Umpan Balik:</label><br>
+  <textarea id="feedbackText" rows="5" cols="30" placeholder="Masukkan umpan balik Anda di sini" required></textarea><br>
+  <label for="userExperience">Bagikan Pengalaman Anda :</label><br>
+  <textarea id="userExperience" rows="5" cols="30" placeholder="Masukkan umpan balik Anda di sini" required></textarea><br>
+
+<button id="submitBtn">Kirim Umpan Balik</button>
+<hr>
+<div id="userInfo" style="display: none;">
+  <h2>Informasi Pengguna:</h2>
+  <p>Nama: <span id="userName"></span></p>
+  <p>Usia: <span id="userAge"></span></p>
+  <p>Email: <span id="userEmail"></span></p>
+  <p>Pekerjaan: <span id="userJob"></span></p>
+  <p>Jabatan: <span id="userDesignation"></span></p>
+  <p>Umpan Balik untuk  <span id="userProductChoice"></span>: <span id="userFeedback"></span></p>
+  <p>Pengalaman  <span id=""></span>: <span id="userexp"></span></p>
+</div>
+<script src="./product_survey.js"></script>
+</body>
+</html>
