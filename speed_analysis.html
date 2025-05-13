@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Analisis Uji Kecepatan</title>
+</head>
+<body>
+  <h1>Analisis Ketikan Cepat</h1>
+
+    <label for="inputText">Ketik teks berikut:</label><br>
+    <textarea id="inputText"  cols="50" rows="5" readonly placeholder="Bersiaplah untuk mengetik..."></textarea><br>
+
+    <label for="userInput">Ketikkan Anda:</label><br>
+    <textarea id="userInput"  cols="50" rows="5" placeholder="Mulai mengetik saat siap"></textarea><br>
+    <button onclick="startTest()">Mulai Uji</button>
+        <button onclick="endTest()" id="btn">Akhiri Uji</button>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
