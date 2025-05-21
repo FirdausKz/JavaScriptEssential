@@ -42,7 +42,6 @@ xhr.onload = function(){
       articleDiv.appendChild(waysList);
       articleDiv.appendChild(benefitsHeader);
       articleDiv.appendChild(benefitsList);
-
       articlesDiv.appendChild(articleDiv);
     
     });
